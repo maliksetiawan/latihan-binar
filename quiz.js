@@ -66,7 +66,17 @@ const arrayOf = [{
 // console.log(value);
 
 // nomor 11 // 
-// console.log(isObject, arrayOf);
+// function arrayPush(isObject){
+//     arrayOf.push(Object)
+//     return arrayOf
+// }
+// const value = arrayPush({
+//     nama_mobil: "ferrari",
+//     kecepatan: "6000 cc",
+//     harga: 200000000,
+//     tipe: "tidak diketahui"
+// })
+// console.log(value);
 
 //nomor 12//
 function stringReplace(text){
@@ -99,7 +109,16 @@ function filter(array){
 function filterr(array){
     return array.filter((value => value === 1000))
 }
-
+function arrayPush(isObject){
+    arrayOf.push(Object)
+    return arrayOf
+}
+const value = arrayPush({
+    nama_mobil: "ferrari",
+    kecepatan: "6000 cc",
+    harga: 200000000,
+    tipe: "tidak diketahui"
+})
 
 
 console.log(stringReplace(text));
@@ -112,7 +131,7 @@ console.log(indexOF(array));
 console.log(includes(array));
 console.log(filter(array)[0]);
 console.log(filterr(array));
-console.log(isObject, arrayOf);
+console.log(value)
 
 //1 . gunakan metode replaceAll() pada input variable text diatas: 
 //output: "nama saya adalah budi saya bekerja sebagai javascript engineer"
