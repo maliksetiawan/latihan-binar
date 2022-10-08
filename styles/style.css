@@ -108,83 +108,130 @@
     line-height: 20px;
     color: white;
 }
+
+/*==ourservice =====*/
+ .section-first {
+    width: 100%;
+    height: auto;
+    display: inline-grid;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section-first-wrapper {
+    width: 1027px;
+    height: auto;
+    background-color: #fff; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Arial;
+    gap: 86px;
+}
+
+.section-first-img>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.section-first-title {
+    /* border: 1px solid red; */
+    height: 428px;
+}
+
+.section-first-title h2 {
+    font-family: Arial;
+    font-size: 24px;
+    margin: 36px 0px 24px;
+    line-height: 36px;
+}
+
+.section-first-title p {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px 0px 18px;
+    line-height: 20px;
+}
+
+.section-first-title ul {
+    padding: 0;
+}
+
+.section-first-title li {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    justify-items: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.section-first-title span {
+    width: 24px;
+    height: 24px;
+    background-color: #cfd4ed;
+    border-radius: 200px;
+    padding-top: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
 /* ====== WHY US ======= */
 
-.why-us {
-    display: flex;
-    flex-direction: column;}
-
-.whyus { 
-    font-family: Arial;
-    font-weight: bold;
-    text-align: left;
-    height: 109px;   
-    margin: auto 83px;
-    }
-.listwhy { 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 40px;
-    gap: 32px;
-    background: yellow;
+.section-second {
+    width: 100%;
+    height: auto;
+    /* background-color: #666; */
+    display: inline-grid;
+    justify-content: center;
+    margin-top: 5rem;
 }
-.whylike {
-border-radius: 21%;
-display: flex;
-flex-direction: column;
-align-items: flex-star;
-background-color: #5cb85f;
-padding: 1px;
-gap: 16px;
 
-width: 268px;
-height: 196px;
-} 
-.whyhargamurah { 
-    border-radius: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-star;
-    background-color: #00f7ff;
-    padding: 1px;
-    gap: 16px;
-    
-    width: 268px;
-    height: 196px; }
-.whylayanan { 
-    border-radius: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-star;
-    background-color: #ff0202;
-    padding: 1px;
-    gap: 16px;
-    
-    width: 268px;
-    height: 196px;}
-.whysopir {
-    border-radius: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-star;
-    background-color: #f80cd9;
-    padding: 1px;
-    gap: 16px;
-    
-    width: 268px;
-    height: 196px;
-
-}
-.why-message {
+.section-second-wrapper {
+    width: 1027px;
+    height: auto;
+    /* background-color: #fff; */
+    grid-template-columns: repeat(2, 1fr);
     font-family: Arial;
+    gap: 86px;
+}
+
+.section-second-wrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 0px 16px;
+}
+
+.section-second-wrapper p {
     font-size: 14px;
-    font-weight: bold;
-}
-.why-photos {
-    margin: auto 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0;
 }
 
+.section-second-grid {
+    width: 100%;
+    height: 196px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* background-color: violet; */
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.section-second-card {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.section-second-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
 
 /* ===== CSS Testimonial ===== */
 .testimonial {
