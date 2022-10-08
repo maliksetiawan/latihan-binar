@@ -13,7 +13,8 @@
         <!-- link css -->
         <link rel="stylesheet" href="./styles/style.css" />
         <link rel="stylesheet" href="./styles/carimobil.css" />
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     </head>
     <body>
         <div class="landing-page">
@@ -40,12 +41,74 @@
                     </div>
                 </div>
             </div>
+        </div>
+        
             <!-- PENCARIAN -->
-            <div class="pencarian">
-                <h1>ini box untuk pencarian</h1>
-                <a href="hasilpencarian.html"><button>pencarian</button></a>
-        </div>  
-
+            <section id="pencarian" class="pencarian">
+                <div class="box-pencarian">
+                   
+                    <h2>PENCARIAN</h2>
+                    <p>Mau Mobil yang bagaimana?</p>
+                    <div class="boxcard-pencarian">
+                        <div class="cardpencarian">
+                            
+                            <h3>nama mobil/ tipe mobil</h3>
+                            <input class="search" type="text" placeholder="ketik nama/tipe mobil " required>
+                        
+                        
+                           <h3>kategori</h3>
+                            <td> 
+                            <select
+                                id="kategori"
+                                class="form-select"
+                                aria-label="Default select example">
+                            <option selected>masukan kapasitas mobil</option>
+                            <option>2 - 4 orang</option>
+                            <option>4 - 6 orang</option>
+                            <option>6 - 8 orang</option>
+                            </select>
+                        </td>
+                        
+                          
+                    
+                        
+                            <h3>Harga</h3>
+                             <td> 
+                             <select
+                                 id="Harga"
+                                 class="form-select"
+                                 aria-label="Default select example">
+                             <option selected>harga</option>
+                             <option>Rp.500.000/hari</option>
+                             <option>Rp.1.500.000/minggu</option>
+                             <option>Rp.5.000.000/bulan</option>
+                             </select>
+                         </td>
+                         
+                     
+                            
+                            <h3>status</h3>
+                             <td> 
+                             <select
+                                 id="status"
+                                 class="form-select"
+                                 aria-label="Default select example">
+                             <option selected>status</option>
+                             <option>Disewa</option>
+                             <option>terjual</option>
+                    
+                             </select>
+                         </td>
+                         <a href="hasilpencarian.html"><button>CARI Mobil</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+         
+               
+               
+               
 
             <!-- footer -->
             <div class="footer">
